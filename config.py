@@ -8,21 +8,12 @@ TELA = pygame.display.set_mode((LARGURA, ALTURA))
 
 
 
-#mundanças de acontecimente jogo
 QUANT_LUTADORES = 2
 TEMP_ESPERA_1 = 5
 TEMP_ESPERA_2 = 20
 POCAO_CURA = 400
 POCAO_CURA_BOT = 200
 
-#fonte
-# FONT = pygame.font.SysFont('times new Roman',30)
-
-
-# #cores
-# VERMELHO = (255,0,0)
-# VERDE = (0,255,0)
-# BRANCO = (255,255,255)
 
 BACKGROUND1 = pygame.image.load('imagem/background/bg_round1.png').convert_alpha()
 
@@ -86,7 +77,6 @@ PLAY = pygame.image.load('imagem/botoes/play.png')
 PLAY_HOVER = pygame.image.load('imagem/botoes/play_hover.png')
 
 MENU = pygame.image.load('imagem/background/menu.png').convert_alpha()
-# MENU = pygame.transform.scale(MENU, (LARGURA,ALTURA))
 
 CREDITOS_BOTAO = pygame.image.load('imagem/botoes/creditos.png')
 CREDITOS_BOTAO_HOVER = pygame.image.load('imagem/botoes/creditos_hover.png')
