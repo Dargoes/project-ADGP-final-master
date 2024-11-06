@@ -208,7 +208,7 @@ def bot_atual(inimigos:list[object, object]) -> object:
     """
     batalha.inimigo_list = inimigos
 
-    inimigos_quant= len(inimigos)
+    inimigos_quant = len(inimigos)
     
     if inimigos[batalha.inimigo].vivo == True:
         pass
