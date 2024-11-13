@@ -496,11 +496,11 @@ class Mapa:
         """Insere na tela os botões das fases com a checagem de clique.
         """
         fases = self.mapa_colocar()        
-        if fases[0].botao_sistema_colocar() and self.andando2 == False and self.andando3 == False:
+        if fases[0].botao_sistema_colocar() and self.andando2 == False and self.andando3 == False and self.vitoria1 == False:
             self.andando1 = True
-        if fases[1].botao_sistema_colocar() and self.andando1 == False and self.andando3 == False:
+        if fases[1].botao_sistema_colocar() and self.andando1 == False and self.andando3 == False and self.vitoria1 == True:
             self.andando2 = True
-        if fases[2].botao_sistema_colocar() and self.andando1 == False and self.andando2 == False:
+        if fases[2].botao_sistema_colocar() and self.andando1 == False and self.andando2 == False and self.vitoria2 == True:
             self.andando3 = True
 
     def colocar_fases_star(self):
